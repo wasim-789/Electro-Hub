@@ -196,6 +196,7 @@ h6 {
   border: 1px solid #e2e8f0;
   width: 250px;
   transition: var(--transition);
+  height: 40px;
 }
 
 #search input:focus {
@@ -210,6 +211,8 @@ h6 {
   border: none;
   margin-left: -50px;
   transition: var(--transition);
+  height: 40px;
+  line-height: 24px;
 }
 
 #search button:hover {
@@ -1002,7 +1005,7 @@ hr {
 }
 
 .social-btn:hover {
-    color: white;
+  color: white;
   transform: translateY(-3px);
   box-shadow: var(--shadow-sm);
 }
